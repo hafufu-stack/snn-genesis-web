@@ -74,7 +74,7 @@ const translations = {
 
         // Footer
         footer_license: "Licensed under MIT.",
-        footer_ai: "AI-assisted research (Gemini, Claude) — all decisions by the human author.",
+        footer_ai: "AI-assisted research — all final decisions were made by the human author.",
     },
 
     ja: {
@@ -150,7 +150,7 @@ const translations = {
 
         // Footer
         footer_license: "MITライセンスで公開。",
-        footer_ai: "AI支援研究（Gemini, Claude） — すべての判断は人間の著者が行いました。",
+        footer_ai: "AI支援研究 — 最終的な判断は人間の著者が行いました。",
     }
 };
 
