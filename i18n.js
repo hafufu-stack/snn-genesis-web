@@ -12,7 +12,7 @@ const translations = {
         hero_badge: "v10.1 — February 2026",
         hero_title1: "A Little Noise",
         hero_title2: "Makes AI Smarter",
-        hero_subtitle: 'We discovered that injecting tiny amounts of random noise into a single layer of a Large Language Model dramatically improves its reasoning ability — a phenomenon known as <strong>Stochastic Resonance</strong>.',
+        hero_subtitle: 'I discovered that injecting tiny amounts of random noise into a single layer of a Large Language Model dramatically improves its reasoning ability — a phenomenon known as <strong>Stochastic Resonance</strong>.',
         stat_improvement: "Performance Boost",
         stat_significance: "Statistical Significance",
         stat_annealing: "Best with Cooling",
@@ -23,7 +23,7 @@ const translations = {
         // Discovery
         discovery_tag: "THE DISCOVERY",
         discovery_title: "Stochastic Resonance in Neural Networks",
-        discovery_desc: "In physics, stochastic resonance is the counterintuitive phenomenon where adding noise to a weak signal actually makes it easier to detect. We found the same effect in AI reasoning.",
+        discovery_desc: "In physics, stochastic resonance is the counterintuitive phenomenon where adding noise to a weak signal actually makes it easier to detect. I found the same effect in AI reasoning.",
         card1_title: "The Problem",
         card1_desc: "Large Language Models get trapped in reasoning dead-ends. Like a ball stuck in a valley, they can't escape local minima without external help.",
         card2_title: "The Solution",
@@ -34,7 +34,7 @@ const translations = {
         // Evolution
         evolution_tag: "12 YEARS OF RESEARCH",
         evolution_title: "From One Neuron to Billions of Parameters",
-        evolution_desc: "This research began in 2014 with a master's thesis studying how random stimulation enhances information processing in a single hippocampal neuron. Now, the same principle scales to entire neural networks.",
+        evolution_desc: "This research began in 2014 with my master's thesis studying how random stimulation enhances information processing in a single hippocampal neuron. Now, the same principle scales to entire neural networks.",
         tl_2014_title: "Master's Thesis: Hippocampal Dentate Gyrus",
         tl_2014_desc: "Discovered that random (vs. regular) stimulation to a single granule cell enhances information processing. One cell, two input pathways.",
         tl_2025_title: "SNN-Genesis v1–v9: Safety & Interpretability",
@@ -88,7 +88,7 @@ const translations = {
         hero_badge: "v10.1 — 2026年2月",
         hero_title1: "ほんの少しのノイズが",
         hero_title2: "AIを賢くする",
-        hero_subtitle: '大規模言語モデルのたった1つの層に微量のランダムノイズを注入するだけで、推論能力が劇的に向上する — <strong>確率共鳴</strong>という物理現象をAIの中で発見しました。',
+        hero_subtitle: '大規模言語モデルのたった1つの層に微量のランダムノイズを注入するだけで、推論能力が劇的に向上する — <strong>確率共鳴</strong>という物理現象をAIの中に発見しました。',
         stat_improvement: "性能向上",
         stat_significance: "統計的有意性",
         stat_annealing: "冷却プロトコル",
@@ -99,7 +99,7 @@ const translations = {
         // Discovery
         discovery_tag: "発見",
         discovery_title: "ニューラルネットワークにおける確率共鳴",
-        discovery_desc: "物理学における確率共鳴とは、弱い信号にノイズを加えると検出しやすくなるという直感に反する現象です。私たちは同じ効果をAIの推論の中に発見しました。",
+        discovery_desc: "物理学における確率共鳴とは、弱い信号にノイズを加えると検出しやすくなるという直感に反する現象です。同じ効果をAIの推論の中に発見しました。",
         card1_title: "課題",
         card1_desc: "大規模言語モデルは推論の袋小路に陥ります。谷底にはまったボールのように、外部からの助けなしには局所最小値から脱出できません。",
         card2_title: "解決策",
@@ -110,7 +110,7 @@ const translations = {
         // Evolution
         evolution_tag: "12年間の研究",
         evolution_title: "1つの神経細胞から数十億パラメータへ",
-        evolution_desc: "この研究は2014年、海馬の1つの神経細胞へのランダム刺激が情報処理を向上させるという修士論文から始まりました。同じ原理が、今やニューラルネットワーク全体にスケールします。",
+        evolution_desc: "この研究は2014年、海馬の1つの神経細胞へのランダム刺激が情報処理を向上させるという私の修士論文から始まりました。同じ原理が、今やニューラルネットワーク全体にスケールします。",
         tl_2014_title: "修士論文：海馬歯状回の顆粒細胞",
         tl_2014_desc: "1つの顆粒細胞に対する規則的刺激とランダム刺激の違いを発見。ランダムな入力が情報量を増加させることを示しました。",
         tl_2025_title: "SNN-Genesis v1–v9：安全性と解釈性",
