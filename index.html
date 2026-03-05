@@ -24,6 +24,7 @@
                 <a href="#discovery" data-i18n="nav_discovery">Discovery</a>
                 <a href="#evolution" data-i18n="nav_evolution">Evolution</a>
                 <a href="#results" data-i18n="nav_results">Results</a>
+                <a href="#correlated" data-i18n="nav_correlated">v12</a>
                 <a href="#principles" data-i18n="nav_principles">Principles</a>
                 <a href="https://github.com/hafufu-stack/snn-genesis" target="_blank">GitHub</a>
                 <button id="lang-toggle" class="lang-btn" onclick="toggleLang()">🇯🇵 日本語</button>
@@ -37,7 +38,7 @@
         <div class="hero-bg"></div>
         <div class="hero-particles" id="particles"></div>
         <div class="hero-content">
-            <div class="hero-badge" data-i18n="hero_badge">v10.1 — February 2026</div>
+            <div class="hero-badge" data-i18n="hero_badge">v12 — March 2026</div>
             <h1>
                 <span class="hero-title-line1" data-i18n="hero_title1">A Little Noise</span>
                 <span class="hero-title-line2" data-i18n="hero_title2">Makes AI Smarter</span>
@@ -49,7 +50,7 @@
             </p>
             <div class="hero-stats">
                 <div class="stat">
-                    <div class="stat-number">3.6×</div>
+                    <div class="stat-number">10×</div>
                     <div class="stat-label" data-i18n="stat_improvement">Performance Boost</div>
                 </div>
                 <div class="stat">
@@ -57,8 +58,8 @@
                     <div class="stat-label" data-i18n="stat_significance">Statistical Significance</div>
                 </div>
                 <div class="stat">
-                    <div class="stat-number">38%</div>
-                    <div class="stat-label" data-i18n="stat_annealing">Best with Cooling</div>
+                    <div class="stat-number">40%</div>
+                    <div class="stat-label" data-i18n="stat_best">Best: Correlated Noise</div>
                 </div>
             </div>
             <div class="hero-cta">
@@ -140,13 +141,23 @@
                             perturbations. Discovered homeostasis, CfC brain atlas, and universal safety zones.</p>
                     </div>
                 </div>
-                <div class="timeline-item highlight">
-                    <div class="timeline-year">2026</div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2026 Q1</div>
                     <div class="timeline-content">
-                        <h3 data-i18n="tl_2026_title">v10–v10.1: Stochastic Resonance Confirmed</h3>
-                        <p data-i18n="tl_2026_desc">The single-cell principle scales: noise at one layer (L18) of
+                        <h3 data-i18n="tl_2026a_title">v10–v10.1: Stochastic Resonance Confirmed</h3>
+                        <p data-i18n="tl_2026a_desc">The single-cell principle scales: noise at one layer (L18) of
                             Mistral-7B boosts reasoning 3.6×. Orthogonal decomposition proves direction×magnitude
                             interaction is key.</p>
+                    </div>
+                </div>
+                <div class="timeline-item highlight">
+                    <div class="timeline-year">2026 Q1</div>
+                    <div class="timeline-content">
+                        <h3 data-i18n="tl_2026b_title">v11–v12: Correlated Noise &amp; Dose Theory</h3>
+                        <p data-i18n="tl_2026b_desc">Multi-layer correlated noise achieves 40% solve rate (10×
+                            baseline).
+                            Discovered the 1/√N dose-adjustment law: σ must scale inversely with the square root of
+                            injected layers to prevent collapse.</p>
                     </div>
                 </div>
             </div>
@@ -228,6 +239,52 @@
                     <img src="images/annealing.png" alt="Simulated Annealing" loading="lazy">
                     <p class="img-caption" data-i18n="cap_annealing">Cooling Protocol: linear decay achieves 38% (best
                         ever)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Correlated Noise Section (Phase 68/69) -->
+    <section id="correlated" class="section section-dark">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" data-i18n="corr_tag">NEW IN v12</span>
+                <h2 data-i18n="corr_title">Correlated Noise: The Dose Makes the Poison</h2>
+                <p class="section-desc" data-i18n="corr_desc">
+                    What happens when you inject noise into multiple layers simultaneously? We discovered a universal
+                    dose-adjustment law: σ must scale as 1/√N to prevent catastrophic collapse.
+                </p>
+            </div>
+            <div class="discovery-grid">
+                <div class="discovery-card">
+                    <div class="card-icon">🧪</div>
+                    <h3 data-i18n="corr_card1_title">The Overdose Problem</h3>
+                    <p data-i18n="corr_card1_desc">Naively applying σ=0.15 to multiple layers simultaneously causes
+                        complete collapse (0% solve rate). The noise accumulates and destroys the signal.</p>
+                </div>
+                <div class="discovery-card highlight">
+                    <div class="card-icon">💊</div>
+                    <h3 data-i18n="corr_card2_title">The 1/√N Law</h3>
+                    <p data-i18n="corr_card2_desc">Scale σ by 1/√N where N = number of layers. With 2 layers at σ=0.075
+                        and positive correlation (ρ=+1), we achieve 40% — 10× baseline and the best result ever.</p>
+                </div>
+                <div class="discovery-card">
+                    <div class="card-icon">⚖️</div>
+                    <h3 data-i18n="corr_card3_title">Correlation Matters</h3>
+                    <p data-i18n="corr_card3_desc">Positive correlation (ρ=+1) at the right dose outperforms negative
+                        correlation (ρ=−1). But at too-high doses, positive correlation collapses while negative
+                        survives — an asymmetric phase transition.</p>
+                </div>
+            </div>
+            <div class="results-duo">
+                <div class="image-showcase half">
+                    <img src="images/phase68.png" alt="Phase 68 Results" loading="lazy">
+                    <p class="img-caption" data-i18n="cap_phase68">Phase 68: Dose-adjusted correlated noise across 10
+                        conditions</p>
+                </div>
+                <div class="image-showcase half">
+                    <img src="images/phase69.png" alt="Phase 69 Results" loading="lazy">
+                    <p class="img-caption" data-i18n="cap_phase69">Phase 69: Annealing variants confirm 40% at N=100</p>
                 </div>
             </div>
         </div>

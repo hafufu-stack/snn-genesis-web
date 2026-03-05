@@ -6,16 +6,17 @@ const translations = {
         nav_discovery: "Discovery",
         nav_evolution: "Evolution",
         nav_results: "Results",
+        nav_correlated: "v12",
         nav_principles: "Principles",
 
         // Hero
-        hero_badge: "v10.1 — February 2026",
+        hero_badge: "v12 — March 2026",
         hero_title1: "A Little Noise",
         hero_title2: "Makes AI Smarter",
         hero_subtitle: 'I discovered that injecting tiny amounts of random noise into a single layer of a Large Language Model dramatically improves its reasoning ability — a phenomenon known as <strong>Stochastic Resonance</strong>.',
         stat_improvement: "Performance Boost",
         stat_significance: "Statistical Significance",
-        stat_annealing: "Best with Cooling",
+        stat_best: "Best: Correlated Noise",
         cta_paper: "📄 Read the Paper",
         cta_code: "💻 View Code",
         scroll_down: "Scroll to Explore",
@@ -39,8 +40,10 @@ const translations = {
         tl_2014_desc: "Discovered that random (vs. regular) stimulation to a single granule cell enhances information processing. One cell, two input pathways.",
         tl_2025_title: "SNN-Genesis v1–v9: Safety & Interpretability",
         tl_2025_desc: "Built a framework for LLM safety using biologically-inspired SNN perturbations. Discovered homeostasis, CfC brain atlas, and universal safety zones.",
-        tl_2026_title: "v10–v10.1: Stochastic Resonance Confirmed",
-        tl_2026_desc: "The single-cell principle scales: noise at one layer (L18) of Mistral-7B boosts reasoning 3.6×. Orthogonal decomposition proves direction×magnitude interaction is key.",
+        tl_2026a_title: "v10–v10.1: Stochastic Resonance Confirmed",
+        tl_2026a_desc: "The single-cell principle scales: noise at one layer (L18) of Mistral-7B boosts reasoning 3.6×. Orthogonal decomposition proves direction×magnitude interaction is key.",
+        tl_2026b_title: "v11–v12: Correlated Noise & Dose Theory",
+        tl_2026b_desc: "Multi-layer correlated noise achieves 40% solve rate (10× baseline). Discovered the 1/√N dose-adjustment law: σ must scale inversely with the square root of injected layers to prevent collapse.",
 
         // Results
         results_tag: "KEY RESULTS",
@@ -62,6 +65,19 @@ const translations = {
         anti_desc: "On-error noise injection HURTS. Once the model outputs an error, the context is contaminated — noise can't fix a poisoned history.",
         quote: '"Stochastic resonance is a vaccine, not an antibiotic. The noise must be present before reasoning enters a failure basin."',
 
+        // Correlated Noise (v12)
+        corr_tag: "NEW IN v12",
+        corr_title: "Correlated Noise: The Dose Makes the Poison",
+        corr_desc: "What happens when you inject noise into multiple layers simultaneously? We discovered a universal dose-adjustment law: σ must scale as 1/√N to prevent catastrophic collapse.",
+        corr_card1_title: "The Overdose Problem",
+        corr_card1_desc: "Naively applying σ=0.15 to multiple layers simultaneously causes complete collapse (0% solve rate). The noise accumulates and destroys the signal.",
+        corr_card2_title: "The 1/√N Law",
+        corr_card2_desc: "Scale σ by 1/√N where N = number of layers. With 2 layers at σ=0.075 and positive correlation (ρ=+1), we achieve 40% — 10× baseline and the best result ever.",
+        corr_card3_title: "Correlation Matters",
+        corr_card3_desc: "Positive correlation (ρ=+1) at the right dose outperforms negative correlation (ρ=−1). But at too-high doses, positive correlation collapses while negative survives — an asymmetric phase transition.",
+        cap_phase68: "Phase 68: Dose-adjusted correlated noise across 10 conditions",
+        cap_phase69: "Phase 69: Annealing variants confirm 40% at N=100",
+
         // Links
         links_tag: "GET INVOLVED",
         links_title: "Read, Cite, Explore",
@@ -82,16 +98,17 @@ const translations = {
         nav_discovery: "発見",
         nav_evolution: "進化",
         nav_results: "実験結果",
+        nav_correlated: "v12",
         nav_principles: "新原理",
 
         // Hero
-        hero_badge: "v10.1 — 2026年2月",
+        hero_badge: "v12 — 2026年3月",
         hero_title1: "ほんの少しのノイズが",
         hero_title2: "AIを賢くする",
         hero_subtitle: '大規模言語モデルのたった1つの層に微量のランダムノイズを注入するだけで、推論能力が劇的に向上する — <strong>確率共鳴</strong>という物理現象をAIの中に発見しました。',
         stat_improvement: "性能向上",
         stat_significance: "統計的有意性",
-        stat_annealing: "冷却プロトコル",
+        stat_best: "最高記録：相関ノイズ",
         cta_paper: "📄 論文を読む",
         cta_code: "💻 ソースコード",
         scroll_down: "スクロールして探索",
@@ -115,8 +132,10 @@ const translations = {
         tl_2014_desc: "1つの顆粒細胞に対する規則的刺激とランダム刺激の違いを発見。ランダムな入力が情報量を増加させることを示しました。",
         tl_2025_title: "SNN-Genesis v1–v9：安全性と解釈性",
         tl_2025_desc: "生物学的SNNの摂動を用いたLLN安全性フレームワークを構築。ホメオスタシス、CfC脳地図、ユニバーサル安全帯を発見。",
-        tl_2026_title: "v10–v10.1：確率共鳴の確認",
-        tl_2026_desc: "単一細胞の原理がスケール：Mistral-7Bの1層（L18）へのノイズ注入で推論が3.6倍向上。直交分解で方向×大きさの相互作用が鍵と証明。",
+        tl_2026a_title: "v10–v10.1：確率共鳴の確認",
+        tl_2026a_desc: "単一細胞の原理がスケール：Mistral-7Bの1層（L18）へのノイズ注入で推論が3.6倍向上。直交分解で方向×大きさの相互作用が鍵と証明。",
+        tl_2026b_title: "v11–v12：相関ノイズと用量理論",
+        tl_2026b_desc: "多層相関ノイズで正答率40%（ベースラインの10倍）を達成。1/√N用量調整則を発見：注入層数の平方根に反比例してσをスケールしないと崩壊する。",
 
         // Results
         results_tag: "主要な実験結果",
@@ -136,7 +155,20 @@ const translations = {
         vacc_desc: "常時ノイズにより、モデルが推論の罠に陥ることを防ぎます。感染前に免疫を構築するワクチンのように。",
         anti_title: "抗生物質（治療）",
         anti_desc: "エラー後のノイズ注入は逆効果。モデルがエラーを出力すると、コンテキストが汚染され、ノイズでは修復できません。",
-        quote: '「確率共鳴はワクチンであり、抗生物質ではない。ノイズは推論が失敗に陥るに起きていなければならない。」',
+        quote: '「確率共鳴はワクチンであり、抗生物質ではない。ノイズは推論が失敗に陥る前に存在していなければならない。」',
+
+        // Correlated Noise (v12)
+        corr_tag: "v12の新機能",
+        corr_title: "相関ノイズ：用量が毒を作る",
+        corr_desc: "複数の層に同時にノイズを注入すると何が起きる？普遍的な用量調整則を発見：壊滅的崩壊を防ぐためにσは1/√Nでスケールしなければならない。",
+        corr_card1_title: "過剰投与の問題",
+        corr_card1_desc: "σ=0.15を複数層にそのまま適用すると完全崩壊（0%正答率）。ノイズが蓄積して信号を破壊します。",
+        corr_card2_title: "1/√N則",
+        corr_card2_desc: "N=層数としてσを1/√Nでスケール。2層でσ=0.075、正の相関（ρ=+1）で正答率40%を達成 — ベースラインの10倍、歴代最高。",
+        corr_card3_title: "相関の重要性",
+        corr_card3_desc: "正の相関（ρ=+1）は適切な用量で負の相関（ρ=−1）を上回る。だが過剰投与では正の相関が崩壊し負の相関は生き残る — 非対称な相転移。",
+        cap_phase68: "Phase 68: 10条件にわたる用量調整相関ノイズ",
+        cap_phase69: "Phase 69: N=100でのアニーリングバリアントで40%を確認",
 
         // Links
         links_tag: "リンク",
