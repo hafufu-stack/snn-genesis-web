@@ -24,6 +24,7 @@
                 <a href="#discovery" data-i18n="nav_discovery">Discovery</a>
                 <a href="#evolution" data-i18n="nav_evolution">Evolution</a>
                 <a href="#results" data-i18n="nav_results">Results</a>
+                <a href="#manifold" data-i18n="nav_manifold">v14</a>
                 <a href="#correlated" data-i18n="nav_correlated">v12</a>
                 <a href="#principles" data-i18n="nav_principles">Principles</a>
                 <a href="https://github.com/hafufu-stack/snn-genesis" target="_blank">GitHub</a>
@@ -38,7 +39,7 @@
         <div class="hero-bg"></div>
         <div class="hero-particles" id="particles"></div>
         <div class="hero-content">
-            <div class="hero-badge" data-i18n="hero_badge">v12 — March 2026</div>
+            <div class="hero-badge" data-i18n="hero_badge">v14 — March 2026</div>
             <h1>
                 <span class="hero-title-line1" data-i18n="hero_title1">A Little Noise</span>
                 <span class="hero-title-line2" data-i18n="hero_title2">Makes AI Smarter</span>
@@ -58,8 +59,8 @@
                     <div class="stat-label" data-i18n="stat_significance">Statistical Significance</div>
                 </div>
                 <div class="stat">
-                    <div class="stat-number">40%</div>
-                    <div class="stat-label" data-i18n="stat_best">Best: Correlated Noise</div>
+                    <div class="stat-number">50%</div>
+                    <div class="stat-label" data-i18n="stat_best">Best: Dimensional Annealing</div>
                 </div>
             </div>
             <div class="hero-cta">
@@ -150,14 +151,19 @@
                             interaction is key.</p>
                     </div>
                 </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2026 Q1</div>
+                    <div class="timeline-content">
+                        <h3 data-i18n="tl_2026b_title">v11–v13: Correlated Noise, Dose Theory &amp; Low-Rank Efficiency</h3>
+                        <p data-i18n="tl_2026b_desc">Multi-layer correlated noise achieves 40% (10× baseline).
+                            Discovered the 1/√N dose-adjustment law. Low-rank noise (k=4) suffices. When &gt; Where ≫ What.</p>
+                    </div>
+                </div>
                 <div class="timeline-item highlight">
                     <div class="timeline-year">2026 Q1</div>
                     <div class="timeline-content">
-                        <h3 data-i18n="tl_2026b_title">v11–v12: Correlated Noise &amp; Dose Theory</h3>
-                        <p data-i18n="tl_2026b_desc">Multi-layer correlated noise achieves 40% solve rate (10×
-                            baseline).
-                            Discovered the 1/√N dose-adjustment law: σ must scale inversely with the square root of
-                            injected layers to prevent collapse.</p>
+                        <h3 data-i18n="tl_2026c_title">v14: Reasoning Manifold Geometry &amp; 50% Record</h3>
+                        <p data-i18n="tl_2026c_desc">Discovered the geometry of the reasoning manifold: PCA-top noise destroys reasoning, random noise is naturally orthogonal. Full-rank Flash Annealing achieves 50% — all-time record.</p>
                     </div>
                 </div>
             </div>
@@ -244,14 +250,58 @@
         </div>
     </section>
 
-    <!-- Correlated Noise Section (Phase 68/69) -->
-    <section id="correlated" class="section section-dark">
+    <!-- v14: Reasoning Manifold Geometry Section -->
+    <section id="manifold" class="section section-dark">
         <div class="container">
             <div class="section-header">
-                <span class="section-tag" data-i18n="corr_tag">NEW IN v12</span>
+                <span class="section-tag" data-i18n="manifold_tag">NEW IN v14</span>
+                <h2 data-i18n="manifold_title">Reasoning Manifold Geometry: Why Random Noise Works</h2>
+                <p class="section-desc" data-i18n="manifold_desc">
+                    v14 discovers the geometry of the reasoning manifold — explaining why random noise naturally enhances reasoning
+                    while aligned noise destroys it. The answer lies in high-dimensional geometry.
+                </p>
+            </div>
+            <div class="discovery-grid">
+                <div class="discovery-card">
+                    <div class="card-icon">🧠</div>
+                    <h3 data-i18n="manifold_card1_title">PCA-Top = Destruction</h3>
+                    <p data-i18n="manifold_card1_desc">Noise aligned with the top principal components of the hidden state
+                        achieves only 6.7% = baseline. The reasoning axis is encoded in these top PCs — perturbing them destroys reasoning.</p>
+                </div>
+                <div class="discovery-card highlight">
+                    <div class="card-icon">🎯</div>
+                    <h3 data-i18n="manifold_card2_title">Random = Naturally Safe</h3>
+                    <p data-i18n="manifold_card2_desc">In 4096-D space, random noise has only 0.098% overlap with the 4-D reasoning axis.
+                        Orthogonal complement noise (46.7%) = random noise (46.7%). Random is naturally safe.</p>
+                </div>
+                <div class="discovery-card">
+                    <div class="card-icon">🏆</div>
+                    <h3 data-i18n="manifold_card3_title">50% All-Time Record</h3>
+                    <p data-i18n="manifold_card3_desc">Full-rank (k=4096) noise with Flash Annealing achieves 50% solve rate,
+                        surpassing the previous record of 46%. Dual annealing (σ + k decay) matches at 50%.</p>
+                </div>
+            </div>
+            <div class="results-duo">
+                <div class="image-showcase half">
+                    <img src="images/phase71.png" alt="Phase 71 Results" loading="lazy">
+                    <p class="img-caption" data-i18n="cap_phase71">Phase 71: PCA-aligned noise — random avoids the reasoning axis</p>
+                </div>
+                <div class="image-showcase half">
+                    <img src="images/phase79.png" alt="Phase 79 Results" loading="lazy">
+                    <p class="img-caption" data-i18n="cap_phase79">Phase 79: Orthogonal complement = random (naturally safe)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Correlated Noise Section (Phase 68/69) -->
+    <section id="correlated" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" data-i18n="corr_tag">FROM v12</span>
                 <h2 data-i18n="corr_title">Correlated Noise: The Dose Makes the Poison</h2>
                 <p class="section-desc" data-i18n="corr_desc">
-                    What happens when you inject noise into multiple layers simultaneously? We discovered a universal
+                    What happens when you inject noise into multiple layers simultaneously? I discovered a universal
                     dose-adjustment law: σ must scale as 1/√N to prevent catastrophic collapse.
                 </p>
             </div>
@@ -350,6 +400,11 @@
                     <h3 data-i18n="link_author">Author</h3>
                     <p>Hiroto Funasaki — ORCID</p>
                 </a>
+                <a href="mailto:cell-activation@ymail.ne.jp" class="link-card">
+                    <div class="link-icon">📧</div>
+                    <h3 data-i18n="link_email">Contact</h3>
+                    <p>cell-activation@ymail.ne.jp</p>
+                </a>
             </div>
             <div class="citation-block">
                 <h3 data-i18n="cite_title">Citation</h3>
@@ -367,6 +422,7 @@
     <footer>
         <div class="container">
             <p>© 2026 Hiroto Funasaki. <span data-i18n="footer_license">Licensed under MIT.</span></p>
+            <p class="footer-sub">📧 cell-activation@ymail.ne.jp</p>
             <p class="footer-sub" data-i18n="footer_ai">AI-assisted research — all final decisions were made by the
                 human author.</p>
         </div>
