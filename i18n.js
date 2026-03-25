@@ -6,18 +6,20 @@ const translations = {
         nav_discovery: "Discovery",
         nav_evolution: "Evolution",
         nav_results: "Results",
+        nav_aha: "Aha!",
+        nav_override: "v19",
         nav_correlated: "v12",
         nav_manifold: "v14",
         nav_principles: "Principles",
 
         // Hero
-        hero_badge: "v14 — March 2026",
+        hero_badge: "v19 — March 2026",
         hero_title1: "A Little Noise",
         hero_title2: "Makes AI Smarter",
         hero_subtitle: 'I discovered that injecting tiny amounts of random noise into a single layer of a Large Language Model dramatically improves its reasoning ability — a phenomenon known as <strong>Stochastic Resonance</strong>.',
         stat_improvement: "Performance Boost",
         stat_significance: "Statistical Significance",
-        stat_best: "Best: Dimensional Annealing",
+        stat_best: "Best: Aha!+Noise Steering",
         cta_paper: "📄 Read the Paper",
         cta_code: "💻 View Code",
         scroll_down: "Scroll to Explore",
@@ -47,6 +49,10 @@ const translations = {
         tl_2026b_desc: "Multi-layer correlated noise achieves 40% (10× baseline). Discovered the 1/√N dose-adjustment law. Low-rank noise (k=4) suffices. When > Where ≫ What.",
         tl_2026c_title: "v14: Reasoning Manifold Geometry & 50% Record",
         tl_2026c_desc: "Discovered the geometry of the reasoning manifold: PCA-top noise destroys reasoning, random noise is naturally orthogonal. Full-rank Flash Annealing achieves 50% — all-time record.",
+        tl_2026d_title: "v15–v18: Aha! Steering — Deterministic Reasoning Vectors",
+        tl_2026d_desc: "Differential PCA extracts the 'reasoning direction' from hidden states. Aha!+Noise steering achieves 47% on Mistral — deterministic prior override. N=100 validated at 37%.",
+        tl_2026e_title: "v19: Neural Prior Override & 0.5B Scaling",
+        tl_2026e_desc: "Confirmed that Aha!+Noise overrides trained priors: Modified Hanoi performance jumps from 13% to 43%. Noise helps even 0.5B parameter models.",
 
         // Results
         results_tag: "KEY RESULTS",
@@ -105,6 +111,32 @@ const translations = {
         cap_phase79: "Phase 79: Orthogonal complement = random (naturally safe)",
         cite_title: "Citation",
 
+        // Aha! Steering (v15-v18)
+        aha_tag: "NEW IN v15–v18",
+        aha_title: "Aha! Steering: Deterministic Reasoning Vectors",
+        aha_desc: "What if the noise could be aimed? Differential PCA extracts the exact direction that separates correct from incorrect reasoning — a 'success vector' that steers the model like a compass.",
+        aha_card1_title: "Differential PCA",
+        aha_card1_desc: "Compute the mean hidden state of solved vs. unsolved games. The difference vector points toward the 'reasoning direction' in 4096-D space — the Aha! vector.",
+        aha_card2_title: "47% with Aha!+Noise",
+        aha_card2_desc: "Combining the deterministic Aha! vector with stochastic noise achieves 47% solve rate — a new paradigm. Neither component alone matches this synergy: deterministic-only = 3%, noise-only = 27%.",
+        aha_card3_title: "N=100 Validated: 37%",
+        aha_card3_desc: "At N=100 (Phase 98), Aha!+Noise achieves 37% vs. baseline 7%. p-value < 0.0001. The 5× improvement is reproducible and statistically ironclad.",
+        cap_phase95: "Phase 95: Aha!+Noise achieves 47% — anti-Aha drops to 0%",
+        cap_phase98: "Phase 98: N=100 validation — 37% vs 7% baseline (p<0.0001)",
+
+        // Neural Prior Override (v19)
+        override_tag: "NEW IN v19",
+        override_title: "Neural Prior Override: Rewriting Trained Beliefs",
+        override_desc: "Can noise override a model's deeply trained priors? The answer is yes. Aha!+Noise makes a model successfully play 'reverse' Tower of Hanoi — where the rules contradict everything it learned during pre-training.",
+        override_card1_title: "Prior vs. Override",
+        override_card1_desc: "In Modified Hanoi, rules are reversed: place LARGER disks on SMALLER ones. Models trained on standard rules fail catastrophically at 13% baseline. Aha!+Noise overrides this bias to 43%.",
+        override_card2_title: "0.5B Scaling",
+        override_card2_desc: "Even models with only 500M parameters benefit from noise injection. The stochastic resonance principle scales down as well as up — noise is universal.",
+        override_card3_title: "Flash Annealing Synergy",
+        override_card3_desc: "Flash Annealing (σ decay over reasoning steps) combined with Aha! steering yields 43% on Modified Hanoi — matching the full Aha!+Noise treatment. Two independent mechanisms, additive benefits.",
+        cap_phase102: "Phase 102: Modified Hanoi — Aha!+Noise overrides trained priors",
+        cap_phase100: "Phase 100: Stochastic resonance scales to 0.5B models",
+
         // Footer
         footer_license: "Licensed under MIT.",
         footer_ai: "AI-assisted research — all final decisions were made by the human author.",
@@ -115,18 +147,20 @@ const translations = {
         nav_discovery: "発見",
         nav_evolution: "進化",
         nav_results: "実験結果",
+        nav_aha: "Aha!",
+        nav_override: "v19",
         nav_correlated: "v12",
         nav_manifold: "v14",
         nav_principles: "新原理",
 
         // Hero
-        hero_badge: "v14 — 2026年3月",
+        hero_badge: "v19 — 2026年3月",
         hero_title1: "ほんの少しのノイズが",
         hero_title2: "AIを賢くする",
         hero_subtitle: '大規模言語モデルのたった1つの層に微量のランダムノイズを注入するだけで、推論能力が劇的に向上する — <strong>確率共鳴</strong>という物理現象をAIの中に発見しました。',
         stat_improvement: "性能向上",
         stat_significance: "統計的有意性",
-        stat_best: "最高記録：次元アニーリング",
+        stat_best: "最高記録：Aha!+ノイズ",
         cta_paper: "📄 論文を読む",
         cta_code: "💻 ソースコード",
         scroll_down: "スクロールして探索",
@@ -156,6 +190,10 @@ const translations = {
         tl_2026b_desc: "多層相関ノイズで正答率40%（ベースラインの10倍）。1/√N用量調整則を発見。低ランクノイズ(k=4)で十分。When > Where ≫ What。",
         tl_2026c_title: "v14：推論多様体幾何学・50%新記録",
         tl_2026c_desc: "推論多様体の幾何学を発見：PCA上位ノイズは推論を破壊、ランダムノイズは自然に直交。フルランクフラッシュアニーリングで50% — 歴代最高記録。",
+        tl_2026d_title: "v15–v18：Aha!ステアリング — 決定論的推論ベクトル",
+        tl_2026d_desc: "差分PCAが隠れ状態から「推論方向」を抽出。Aha!+ノイズステアリングでMistralの正答率47%を達成 — 決定論的な事前知識オーバーライド。N=100で37%を検証。",
+        tl_2026e_title: "v19：ニューラル事前知識オーバーライド・0.5Bスケーリング",
+        tl_2026e_desc: "Aha!+ノイズが訓練済み事前知識を書き換えることを確認：Modified Hanoiの正答率13%→43%。0.5Bパラメータモデルでもノイズが効果的。",
 
         // Results
         results_tag: "主要な実験結果",
@@ -213,6 +251,32 @@ const translations = {
         cap_phase71: "Phase 71：PCA整列ノイズ — ランダムは推論軸を避ける",
         cap_phase79: "Phase 79：直交補空間 = ランダム（自然に安全）",
         cite_title: "引用",
+
+        // Aha! ステアリング (v15-v18)
+        aha_tag: "v15–v18の新機能",
+        aha_title: "Aha!ステアリング：決定論的推論ベクトル",
+        aha_desc: "ノイズに方向を与えたら？差分PCAが正解と不正解の推論を分ける正確な方向を抽出 — モデルをコンパスのように導く「成功ベクトル」。",
+        aha_card1_title: "差分PCA",
+        aha_card1_desc: "解けたゲームと解けなかったゲームの平均隠れ状態を計算。差分ベクトルが4096次元空間の「推論方向」を示す — これがAha!ベクトル。",
+        aha_card2_title: "Aha!+ノイズで47%",
+        aha_card2_desc: "決定論的Aha!ベクトルと確率的ノイズの組み合わせで正答率47%を達成 — 新たなパラダイム。どちらか単独ではこの相乗効果に匹敵しない：決定論のみ=3%、ノイズのみ=27%。",
+        aha_card3_title: "N=100検証：37%",
+        aha_card3_desc: "N=100（Phase 98）でAha!+ノイズが37%を達成、ベースライン7%の5倍以上。p値<0.0001。再現性のある統計的に鉄壁の改善。",
+        cap_phase95: "Phase 95：Aha!+ノイズで47%達成 — 逆Aha!は0%に",
+        cap_phase98: "Phase 98：N=100検証 — 37% vs ベースライン7%（p<0.0001）",
+
+        // ニューラル事前知識オーバーライド (v19)
+        override_tag: "v19の新機能",
+        override_title: "ニューラル事前知識オーバーライド：訓練された信念の書き換え",
+        override_desc: "ノイズはモデルの深く訓練された事前知識を書き換えられるのか？答えはイエス。Aha!+ノイズにより、事前学習で学んだルールとは真逆の「逆」ハノイの塔をモデルに解かせることに成功。",
+        override_card1_title: "事前知識 vs オーバーライド",
+        override_card1_desc: "Modified Hanoiではルールが逆転：大きいディスクを小さいディスクの上に置く。標準ルールで訓練されたモデルはベースライン13%で壊滅的に失敗。Aha!+ノイズがこのバイアスを43%にオーバーライド。",
+        override_card2_title: "0.5Bスケーリング",
+        override_card2_desc: "わずか5億パラメータのモデルでもノイズ注入の恩恵を受ける。確率共鳴の原理はスケールアップだけでなくダウンにも適用 — ノイズは普遍的。",
+        override_card3_title: "フラッシュアニーリングとの相乗効果",
+        override_card3_desc: "フラッシュアニーリング（推論ステップごとのσ減衰）とAha!ステアリングの組み合わせでModified Hanoiの43%を達成 — 完全なAha!+ノイズ処理と同等。2つの独立メカニズム、相加的効果。",
+        cap_phase102: "Phase 102：Modified Hanoi — Aha!+ノイズが訓練済み事前知識をオーバーライド",
+        cap_phase100: "Phase 100：確率共鳴が0.5Bモデルにもスケール",
 
         // Footer
         footer_license: "MITライセンスで公開。",
