@@ -6,6 +6,7 @@ const translations = {
         nav_discovery: "Discovery",
         nav_evolution: "Evolution",
         nav_results: "Results",
+        nav_synthesis: "v20",
         nav_aha: "Aha!",
         nav_override: "v19",
         nav_correlated: "v12",
@@ -13,13 +14,13 @@ const translations = {
         nav_principles: "Principles",
 
         // Hero
-        hero_badge: "v19 — March 2026",
+        hero_badge: "v20 — March 2026",
         hero_title1: "A Little Noise",
         hero_title2: "Makes AI Smarter",
         hero_subtitle: 'I discovered that injecting tiny amounts of random noise into a single layer of a Large Language Model dramatically improves its reasoning ability — a phenomenon known as <strong>Stochastic Resonance</strong>.',
         stat_improvement: "Performance Boost",
         stat_significance: "Statistical Significance",
-        stat_best: "Best: Aha!+Noise Steering",
+        stat_best: "Best: Aha! L16 Steering",
         cta_paper: "📄 Read the Paper",
         cta_code: "💻 View Code",
         scroll_down: "Scroll to Explore",
@@ -53,6 +54,8 @@ const translations = {
         tl_2026d_desc: "Differential PCA extracts the 'reasoning direction' from hidden states. Aha!+Noise steering achieves 47% on Mistral — deterministic prior override. N=100 validated at 37%.",
         tl_2026e_title: "v19: Neural Prior Override & 0.5B Scaling",
         tl_2026e_desc: "Confirmed that Aha!+Noise overrides trained priors: Modified Hanoi performance jumps from 13% to 43%. Noise helps even 0.5B parameter models.",
+        tl_2026f_title: "v20: SNN-Synthesis — From Injection to Integration",
+        tl_2026f_desc: "Six new experiments push beyond runtime noise: LoRA SFT distills trajectory vectors into model weights, dual-layer orchestration tests destroy+create synergy, and cross-task transfer reveals whether Hanoi vectors generalize to arithmetic reasoning.",
 
         // Results
         results_tag: "KEY RESULTS",
@@ -124,8 +127,19 @@ const translations = {
         cap_phase95: "Phase 95: Aha!+Noise achieves 47% — anti-Aha drops to 0%",
         cap_phase98: "Phase 98: N=100 validation — 37% vs 7% baseline (p<0.0001)",
 
+        // SNN-Synthesis (v20)
+        synthesis_tag: "NEW IN v20",
+        synthesis_title: "SNN-Synthesis: From Injection to Integration",
+        synthesis_desc: "v20 asks the next question: can we move beyond runtime noise injection? Six experiments test whether reasoning vectors can be permanently embedded into model weights, whether different layers can orchestrate destroy+create dynamics, and whether vectors transfer across completely different tasks.",
+        synthesis_card1_title: "Trajectory Distillation",
+        synthesis_card1_desc: "LoRA SFT with a trajectory-alignment penalty bakes the Aha! direction into Qwen-0.5B's weights. The model learns not just correct moves, but the internal geometry of successful reasoning.",
+        synthesis_card2_title: "Dual-Layer Orchestration",
+        synthesis_card2_desc: "Layer 16 receives a destroy vector while Layer 18 gets a create vector simultaneously. Testing whether controlled demolition of wrong priors plus constructive steering yields synergy beyond either alone.",
+        synthesis_card3_title: "Cross-Task Transfer",
+        synthesis_card3_desc: "Hanoi Aha! vectors are projected from Mistral's 4096-D to Qwen's 896-D and injected during arithmetic word problems. If they help, reasoning vectors encode task-general cognitive patterns.",
+
         // Neural Prior Override (v19)
-        override_tag: "NEW IN v19",
+        override_tag: "FROM v19",
         override_title: "Neural Prior Override: Rewriting Trained Beliefs",
         override_desc: "Can noise override a model's deeply trained priors? The answer is yes. Aha!+Noise makes a model successfully play 'reverse' Tower of Hanoi — where the rules contradict everything it learned during pre-training.",
         override_card1_title: "Prior vs. Override",
@@ -147,6 +161,7 @@ const translations = {
         nav_discovery: "発見",
         nav_evolution: "進化",
         nav_results: "実験結果",
+        nav_synthesis: "v20",
         nav_aha: "Aha!",
         nav_override: "v19",
         nav_correlated: "v12",
@@ -154,13 +169,13 @@ const translations = {
         nav_principles: "新原理",
 
         // Hero
-        hero_badge: "v19 — 2026年3月",
+        hero_badge: "v20 — 2026年3月",
         hero_title1: "ほんの少しのノイズが",
         hero_title2: "AIを賢くする",
         hero_subtitle: '大規模言語モデルのたった1つの層に微量のランダムノイズを注入するだけで、推論能力が劇的に向上する — <strong>確率共鳴</strong>という物理現象をAIの中に発見しました。',
         stat_improvement: "性能向上",
         stat_significance: "統計的有意性",
-        stat_best: "最高記録：Aha!+ノイズ",
+        stat_best: "最高記録：Aha! L16ステアリング",
         cta_paper: "📄 論文を読む",
         cta_code: "💻 ソースコード",
         scroll_down: "スクロールして探索",
@@ -194,6 +209,8 @@ const translations = {
         tl_2026d_desc: "差分PCAが隠れ状態から「推論方向」を抽出。Aha!+ノイズステアリングでMistralの正答率47%を達成 — 決定論的な事前知識オーバーライド。N=100で37%を検証。",
         tl_2026e_title: "v19：ニューラル事前知識オーバーライド・0.5Bスケーリング",
         tl_2026e_desc: "Aha!+ノイズが訓練済み事前知識を書き換えることを確認：Modified Hanoiの正答率13%→43%。0.5Bパラメータモデルでもノイズが効果的。",
+        tl_2026f_title: "v20：SNN-Synthesis — 注入から統合へ",
+        tl_2026f_desc: "6つの新実験でランタイムノイズを超える：LoRA SFTで軌跡ベクトルをモデル重みに焼き込み、二層オーケストレーションで破壊+創造の相乗効果を検証、クロスタスク転移でHanoiベクトルが算術推論にも汎化するかを検証。",
 
         // Results
         results_tag: "主要な実験結果",
@@ -265,8 +282,19 @@ const translations = {
         cap_phase95: "Phase 95：Aha!+ノイズで47%達成 — 逆Aha!は0%に",
         cap_phase98: "Phase 98：N=100検証 — 37% vs ベースライン7%（p<0.0001）",
 
+        // SNN-Synthesis (v20)
+        synthesis_tag: "v20の新機能",
+        synthesis_title: "SNN-Synthesis：注入から統合へ",
+        synthesis_desc: "v20は次の問いを立てる：ランタイムノイズ注入を超えられるか？6つの実験で、推論ベクトルをモデル重みに恒久的に焼き込めるか、異なる層が破壊+創造ダイナミクスを協調できるか、そしてベクトルが完全に異なるタスクに転移するかを検証。",
+        synthesis_card1_title: "軌跡蒸留",
+        synthesis_card1_desc: "LoRA SFTに軌跡整列ペナルティを加え、Aha!方向をQwen-0.5Bの重みに焼き込む。モデルは正しい手順だけでなく、成功する推論の内部幾何学を学習。",
+        synthesis_card2_title: "二層オーケストレーション",
+        synthesis_card2_desc: "第16層に破壊ベクトル、第18層に創造ベクトルを同時注入。誤った事前知識の制御された解体と建設的ステアリングが、単独を超える相乗効果を生むかを検証。",
+        synthesis_card3_title: "クロスタスク転移",
+        synthesis_card3_desc: "HanoiのAha!ベクトルをMistralの4096次元からQwenの896次元に射影し、算術文章題に注入。効果があれば、推論ベクトルはタスク汎用的な認知パターンを符号化していることになる。",
+
         // ニューラル事前知識オーバーライド (v19)
-        override_tag: "v19の新機能",
+        override_tag: "v19の機能",
         override_title: "ニューラル事前知識オーバーライド：訓練された信念の書き換え",
         override_desc: "ノイズはモデルの深く訓練された事前知識を書き換えられるのか？答えはイエス。Aha!+ノイズにより、事前学習で学んだルールとは真逆の「逆」ハノイの塔をモデルに解かせることに成功。",
         override_card1_title: "事前知識 vs オーバーライド",

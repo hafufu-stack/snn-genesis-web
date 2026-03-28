@@ -24,6 +24,7 @@
                 <a href="#discovery" data-i18n="nav_discovery">Discovery</a>
                 <a href="#evolution" data-i18n="nav_evolution">Evolution</a>
                 <a href="#results" data-i18n="nav_results">Results</a>
+                <a href="#synthesis" data-i18n="nav_synthesis">v20</a>
                 <a href="#aha" data-i18n="nav_aha">Aha!</a>
                 <a href="#override" data-i18n="nav_override">v19</a>
                 <a href="#manifold" data-i18n="nav_manifold">v14</a>
@@ -41,7 +42,7 @@
         <div class="hero-bg"></div>
         <div class="hero-particles" id="particles"></div>
         <div class="hero-content">
-            <div class="hero-badge" data-i18n="hero_badge">v19 — March 2026</div>
+            <div class="hero-badge" data-i18n="hero_badge">v20 — March 2026</div>
             <h1>
                 <span class="hero-title-line1" data-i18n="hero_title1">A Little Noise</span>
                 <span class="hero-title-line2" data-i18n="hero_title2">Makes AI Smarter</span>
@@ -53,7 +54,7 @@
             </p>
             <div class="hero-stats">
                 <div class="stat">
-                    <div class="stat-number">10×</div>
+                    <div class="stat-number">23×</div>
                     <div class="stat-label" data-i18n="stat_improvement">Performance Boost</div>
                 </div>
                 <div class="stat">
@@ -61,8 +62,8 @@
                     <div class="stat-label" data-i18n="stat_significance">Statistical Significance</div>
                 </div>
                 <div class="stat">
-                    <div class="stat-number">47%</div>
-                    <div class="stat-label" data-i18n="stat_best">Best: Aha!+Noise Steering</div>
+                    <div class="stat-number">76.7%</div>
+                    <div class="stat-label" data-i18n="stat_best">Best: Aha! L16 Steering</div>
                 </div>
             </div>
             <div class="hero-cta">
@@ -175,11 +176,18 @@
                         <p data-i18n="tl_2026d_desc">Differential PCA extracts the "reasoning direction" from hidden states. Aha!+Noise steering achieves 47% on Mistral — deterministic prior override. N=100 validated at 37%.</p>
                     </div>
                 </div>
-                <div class="timeline-item highlight">
+                <div class="timeline-item">
                     <div class="timeline-year">2026 Q1</div>
                     <div class="timeline-content">
                         <h3 data-i18n="tl_2026e_title">v19: Neural Prior Override &amp; 0.5B Scaling</h3>
                         <p data-i18n="tl_2026e_desc">Confirmed that Aha!+Noise overrides trained priors: Modified Hanoi performance jumps from 13% to 43%. Noise helps even 0.5B parameter models.</p>
+                    </div>
+                </div>
+                <div class="timeline-item highlight">
+                    <div class="timeline-year">2026 Q1</div>
+                    <div class="timeline-content">
+                        <h3 data-i18n="tl_2026f_title">v20: SNN-Synthesis — From Injection to Integration</h3>
+                        <p data-i18n="tl_2026f_desc">Six new experiments push beyond runtime noise: LoRA SFT distills trajectory vectors into model weights, dual-layer orchestration tests destroy+create synergy, and cross-task transfer reveals whether Hanoi vectors generalize to arithmetic reasoning.</p>
                     </div>
                 </div>
             </div>
@@ -311,11 +319,50 @@
         </div>
     </section>
 
-    <!-- v19: Neural Prior Override Section -->
-    <section id="override" class="section">
+    <!-- v20: SNN-Synthesis Section -->
+    <section id="synthesis" class="section">
         <div class="container">
             <div class="section-header">
-                <span class="section-tag" data-i18n="override_tag">NEW IN v19</span>
+                <span class="section-tag" data-i18n="synthesis_tag">NEW IN v20</span>
+                <h2 data-i18n="synthesis_title">SNN-Synthesis: From Injection to Integration</h2>
+                <p class="section-desc" data-i18n="synthesis_desc">
+                    v20 asks the next question: can we move beyond runtime noise injection? Six experiments
+                    test whether reasoning vectors can be permanently embedded into model weights, whether
+                    different layers can orchestrate destroy+create dynamics, and whether vectors transfer
+                    across completely different tasks.
+                </p>
+            </div>
+            <div class="discovery-grid">
+                <div class="discovery-card">
+                    <div class="card-icon">🧬</div>
+                    <h3 data-i18n="synthesis_card1_title">Trajectory Distillation</h3>
+                    <p data-i18n="synthesis_card1_desc">LoRA SFT with a trajectory-alignment penalty bakes the Aha!
+                        direction into Qwen-0.5B's weights. The model learns not just correct moves, but the internal
+                        geometry of successful reasoning.</p>
+                </div>
+                <div class="discovery-card highlight">
+                    <div class="card-icon">🎭</div>
+                    <h3 data-i18n="synthesis_card2_title">Dual-Layer Orchestration</h3>
+                    <p data-i18n="synthesis_card2_desc">Layer 16 receives a destroy vector while Layer 18 gets a create
+                        vector simultaneously. Testing whether controlled demolition of wrong priors plus constructive
+                        steering yields synergy beyond either alone.</p>
+                </div>
+                <div class="discovery-card">
+                    <div class="card-icon">🔀</div>
+                    <h3 data-i18n="synthesis_card3_title">Cross-Task Transfer</h3>
+                    <p data-i18n="synthesis_card3_desc">Hanoi Aha! vectors are projected from Mistral's 4096-D to Qwen's 896-D
+                        and injected during arithmetic word problems. If they help, reasoning vectors encode task-general
+                        cognitive patterns.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- v19: Neural Prior Override Section -->
+    <section id="override" class="section section-dark">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" data-i18n="override_tag">FROM v19</span>
                 <h2 data-i18n="override_title">Neural Prior Override: Rewriting Trained Beliefs</h2>
                 <p class="section-desc" data-i18n="override_desc">
                     Can noise override a model's deeply trained priors? The answer is yes.
